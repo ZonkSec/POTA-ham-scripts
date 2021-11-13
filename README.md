@@ -2,7 +2,7 @@
 these are some ham radio scripts i wrote for POTA purposes.
 
 The main reasons i wrote them was to check for:
-- what parks in my State I have left to do (trying to do them all!)
+- what parks in my State I have left to activate (trying to do them all!)
 - if ive made QSOs to every state.
 
 they are quick and dirty, room for improvments everywhere, but they help me see if ive reached my goals!
