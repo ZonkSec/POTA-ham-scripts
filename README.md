@@ -10,7 +10,7 @@ this script takes a file path to an ADIF file and then converts all QSO callsign
 this script takes the "states.txt" file created in the previous step and checks what states have not been contacted. outputs results to screen
 
 ### parksTODOgps.py
-manually create a file called "parksCompleted.txt" that contains all the parks you have done. (K-XXXX format, each park on its own line). this script takes that file, pulls the latest park listing from POTA for your state (you will have to update this script to be for your state), and then outputs to screen a CSV of parkname|description, lat, and long. This CSV can then be imported to mymaps.google.com to give you a custom map of what parks left to activate!
+this script uses POTA API to generate list of done parks (need to get auth header from site), then pulls the latest park listing from POTA for your state (you will have to update this script to be for your state), and then outputs to screen a CSV of parkname|description, lat, and long. This CSV can then be imported to mymaps.google.com to give you a custom map of what parks left to activate!
 
 ### potalog2adif.py
 takes a session from pota.app, then will parse all hunted park QSOs in your account's log. it then converts those QSOs into ADIF for use in importing into other log programs or for mapping or etc.
